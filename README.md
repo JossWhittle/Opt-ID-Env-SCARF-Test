@@ -13,6 +13,9 @@ From `~/jobs/Opt-ID-Env-SCARF-Test/` submit `sbatch job-build.sh` to pull the Si
 			job-test.sh
 			test.py
 
+	downloads/
+		mpi4py-3.0.3.tar.gz
+
 	images/
 		opt-id-env-v3.sif
 
