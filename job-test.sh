@@ -23,8 +23,8 @@ which mpicc
 singularity --version
 
 if [ ! -d "$HOME/bin/mpi4py" ]; then
-	echo "MPI4Py not found in ~/bin/ directory! Submit 'sbatch job-build.sh'"
-	exit 1
+    echo "MPI4Py not found in ~/bin/ directory! Submit 'sbatch job-build.sh'"
+    exit 1
 fi
 
 # Get the Singularity container environment

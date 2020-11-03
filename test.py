@@ -27,7 +27,7 @@ comm = MPI.COMM_WORLD
 comm.Barrier()
 
 if comm.rank == 0:
-	print(f'{comm.rank:04d} of {comm.size:04d} : Test Radia on each process...')
+    print(f'{comm.rank:04d} of {comm.size:04d} : Test Radia on each process...')
 
 comm.Barrier() 
 
@@ -43,7 +43,7 @@ print(f'{comm.rank:04d} of {comm.size:04d} : Radia success: {np.allclose(observe
 comm.Barrier()
 
 if comm.rank == 0:
-	print(f'{comm.rank:04d} of {comm.size:04d} : Test communication on each process...')
+    print(f'{comm.rank:04d} of {comm.size:04d} : Test communication on each process...')
 
 comm.Barrier() 
 
