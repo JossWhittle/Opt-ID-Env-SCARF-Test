@@ -8,7 +8,7 @@
 
 # Setup MPI
 module load OpenMPI/4.0.0-GCC-8.2.0-2.31.1
-export OMPI_MCA_btl="openib,self"
+export OMPI_MCA_btl="openib,tcp,vader,self"
 export OMPI_MCA_btl_openib_allow_ib=1
 
 # Configure logging prefix
